@@ -42,7 +42,7 @@ export function AppRoutes() {
                     paddingBottom: tokens.space["10"],
                     paddingTop: tokens.space["6"],
                     flexDirection: "row",
-                    alignContent: "center",
+                    justifyContent: "space-around",
                 },
             }}
         >
@@ -71,7 +71,7 @@ export function AppRoutes() {
                 name="exercise"
                 component={Exercise}
                 options={{
-                    tabBarButton: () => null,
+                    tabBarButton: () => <></>,
                 }}
             />
         </Navigator>
